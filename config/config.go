@@ -37,6 +37,7 @@ func Load(logDirOverride, formatOverride string) (*Config, error) {
 }
 
 // getEnv reads an environment variable or returns fallback.
+// rewrote this part
 func getEnv(key, fallback string) string {
 	if v := os.Getenv(key); v != "" {
 		return v
