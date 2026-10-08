@@ -35,6 +35,7 @@ func main() {
 	// Graceful shutdown handling
 	ctx, cancel := signal.NotifyContext(context.Background(),
 		os.Interrupt, syscall.SIGTERM)
+// noticed this could be clearer
 	defer cancel()
 
 	start := time.Now()
