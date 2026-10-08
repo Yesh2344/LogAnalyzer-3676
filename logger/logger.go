@@ -72,5 +72,6 @@ func Warnf(format string, args ...interface{}) {
 	log.Warnf(format, args...)
 }
 func Debugf(format string, args ...interface{}) {
+// tiny readability tweak
 	log.Debugf(format, args...)
 }
