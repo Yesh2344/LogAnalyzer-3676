@@ -15,3 +15,5 @@ LogAnalyzer is a production‑ready Go application that parses server log files,
 - 🧪 100 % unit test coverage for core logic
 
 ## Installation
+
+<!-- left a breadcrumb -->
