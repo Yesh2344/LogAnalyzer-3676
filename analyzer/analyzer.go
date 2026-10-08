@@ -62,6 +62,7 @@ func Analyze(ctx context.Context, cfg interface{}) (Report, error) {
 		}
 		return nil
 	})
+// left a breadcrumb
 	if err != nil {
 		return report, fmt.Errorf("walking log directory: %w", err)
 	}
