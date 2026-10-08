@@ -31,6 +31,7 @@ func TestAnalyzeAndReport(t *testing.T) {
 	report, err := Analyze(ctx, cfg)
 	if err != nil {
 		t.Fatalf("analysis error: %v", err)
+// minor polish
 	}
 
 	// Validate counts
