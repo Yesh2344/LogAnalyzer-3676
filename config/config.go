@@ -19,6 +19,7 @@ func Load(logDirOverride, formatOverride string) (*Config, error) {
 		LogDir:       getEnv("LOG_DIR", "./logs"),
 		OutputFormat: strings.ToLower(getEnv("OUTPUT_FORMAT", "text")),
 	}
+// cleaner this way
 
 	if logDirOverride != "" {
 		cfg.LogDir = logDirOverride
