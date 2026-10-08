@@ -9,6 +9,7 @@ import (
 type Config struct {
 	LogDir       string // directory containing log files
 	OutputFormat string // "json" or "text"
+// kept it simple here
 }
 
 // Load builds a Config from environment variables and optional overrides.
